@@ -1,5 +1,5 @@
 {
-  "name": "neomerx/cors-psr7",
+  "name": "apploud/cors-psr7",
   "description": "Framework agnostic (PSR-7) CORS implementation (www.w3.org/TR/cors/)",
   "keywords": [
     "PSR-7",
@@ -20,8 +20,15 @@
     {
       "name": "neomerx",
       "email": "info@neomerx.com"
+    },
+    {
+      "name": "Jan Konáš",
+      "email": "jan.konas@apploud.cz"
     }
   ],
+  "replace": {
+    "neomerx/cors-psr7": "<=3.0.2"
+  },
   "require": {
     "php": ">=8.0.0",
     "psr/http-message": "^1.0 || ^2.0",
